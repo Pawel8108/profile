@@ -1,0 +1,7 @@
+The choice between using .card or .container in your media queries depends on the specific needs of your project.
+
+If you're styling individual card elements that need to change size at different viewport widths, then using .card in your media queries, as in your current code, is appropriate.
+
+On the other hand, if you're trying to control the overall layout of your page and want to change the width of a container that holds multiple elements, then using .container in your media queries would be more appropriate.
+
+In general, it's common to use both types of media queries in a project: one set for the overall layout (using a class like .container), and another set for individual elements (like .card). This allows you to control the layout at a high level while also fine-tuning the appearance of individual elements.
